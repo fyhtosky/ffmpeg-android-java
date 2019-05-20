@@ -31,10 +31,10 @@ android {
 }
 
 dependencies {
-    compile 'com.squareup.dagger:dagger-compiler:1.2.2'
-    compile 'com.squareup.dagger:dagger:1.2.2'
-    compile 'com.jakewharton:butterknife:5.1.2'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile 'com.squareup.assertj:assertj-android:1.0.0'
-    compile project(':FFmpegAndroid')
+    implementation 'com.squareup.dagger:dagger-compiler:1.2.2'
+    implementation 'com.squareup.dagger:dagger:1.2.2'
+    implementation 'com.jakewharton:butterknife:5.1.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation 'com.squareup.assertj:assertj-android:1.0.0'
+    implementation project(':FFmpegAndroid')
 }
